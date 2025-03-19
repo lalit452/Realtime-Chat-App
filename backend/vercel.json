@@ -12,7 +12,7 @@
           "dest": "src/index.js",
           "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
           "headers": {
-              "Access-Control-Allow-Origin": "https://your-frontend-url.com",
+              "Access-Control-Allow-Origin": "https://realtime-chat-app-blue-nine.vercel.app",
               "Access-Control-Allow-Credentials": "true"
           }
       }
