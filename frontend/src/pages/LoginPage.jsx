@@ -17,6 +17,7 @@ const LoginPage = () => {
     login(formData);
   };
   return (
+    <>
     <div className="h-screen grid lg:grid-cols-2">
     {/* Left Side - Form */}
     <div className="flex flex-col justify-center items-center p-6 sm:p-12">
@@ -113,6 +114,19 @@ const LoginPage = () => {
       subtitle={"Sign in to continue your conversations and catch up with your messages."}
     />
   </div>
+  {/* <div>
+<div>Email : lalit2@gmail.com</div>
+<div>Password : 123456</div>
+  </div> */}
+
+<div className="absolute top-[78%] left-[45%] transform -translate-x-1/2 text-yellow-500 font-bold text-lg">
+<p className='text-white mb-2'>test email</p>
+  <div>Email: lalit2@gmail.com</div>
+  <div>Password: 123456</div>
+</div>
+
+    
+    </>
   )
 }
 

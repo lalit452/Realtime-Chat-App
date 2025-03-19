@@ -21,7 +21,7 @@ const NoChatSelected = () => {
         <p className="text-base-content/60"> 
           Select a conversation from the sidebar to start chatting
         </p>
-        <p>Relatime Messaging is off due to vercel dont allow in free deployment</p>
+        <p className="mt-10 font-bold text-lg text-yellow-500" >Relatime Messaging is off due to vercel dont allow in free deployment</p>
       </div>
     </div>
   );
